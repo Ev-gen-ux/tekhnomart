@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/PTSans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans", sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    src: url("/fonts/PTSans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    background-color: white;
+}
+
+.navigation-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.navigation-sub {
+    margin: 0;
+    padding: 0;
+    background: #293449;
+}
+
+.navigation-sub-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.navigation-site {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navigation-item-site {
+    margin: 0;
+    padding: 0;
+    padding-right: 45px;
+}
+
+.navigation-item {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.navigation-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navigation-cut {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.sub-menu {
+    margin: 0;
+    padding: 0;
+    background-color: #3D546F;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    width: 1170px;
+}
+
+
+.information-header {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #EE3643;
+}
+
+.contacts-adress {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #32425C;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts-phone {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #293449;
+    text-decoration: none;
+}
+
+.page-header-logo::before {
+    content: "";
+    display: block;
+    width: 220px;
+    height: 50px;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.technomart::before {
+    background-image: url(../images/Logo.png);
+}
+
+.benefit {
+    background-color: #F4F7F9;
+    ;
+}
+
+.benefite-info {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.category {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.catalog-products {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.contacts-info {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.page-footer {
+    margin: 0 auto;
+    width: 1170px;
+}

@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Техномарт</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -11,56 +12,64 @@
         <nav class="navigation">
             <ul class="info">
                 <li class="info-item">
-                    <p class="information">Интернет-магазин строительных материалов и инструментов для ремонта</p>
+                    <p class="information-header">Интернет-магазин строительных материалов и инструментов для ремонта
+                    </p>
                 </li>
                 <li class="info-item">
                     <address class="contacts-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
                 </li>
                 <li class="info-item">
-                    <div class="contacts-phone"><a href="+7(812)555-05-5">+7(812)555-05-5</a></div>
+                    <a class="contacts-phone" href="+7(812)555-05-5">+7(812)555-05-5</a>
                 </li>
             </ul>
-            <div class="navigation-user">
-                <a class="page-header-logo" href="#">Логотип Техномарт</a>
-                <form class="menu-search" method="get">
-                    <input class="input-search" type="text" placeholder=" ">
-                    <button class="menu-search-button" type="submit">Поиск</button>
-                </form>
-            </div>
-            <ul class="navigation-site">
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Главная</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Компания</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Каталог</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Новости</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Спецпредложения</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Доставка</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Контакты</a>
-                </li>
-            </ul>
-            <ul class="navigation-user">
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Избранное</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Корзина</a>
-                </li>
-                <li class="navigation-item">
-                    <a class="navigation-link" href="#">Оформить заказ</a>
-                </li>
-            </ul>
+            <section class="navigation-sub">
+                <div class="navigation-user">
+                    <a class="page-header-logo technomart" href="#"></a>
+                    <form class="menu-search" method="get">
+                        <input class="input-search" type="text" placeholder=" ">
+                        <button class="menu-search-button" type="submit">Поиск</button>
+                    </form>
+                    <button class="button-user" type="submit">Войти</button>
+                </div>
+            </section>
+            <section class="sub-menu">
+                <div class="navigation-sub-menu">
+                    <ul class="navigation-site">
+                        <li class="navigation-item-site">
+                            <a class="navigation-link" href="#">Главная</a>
+                        </li>
+                        <li class="navigation-item-site">
+                            <a class="navigation-link" href="#">Компания</a>
+                        </li>
+                        <li class="navigation-item-site">
+                            <a class="navigation-link" href="#">Каталог</a>
+                        </li>
+                        <li class="navigation-item-site">
+                            <a class="navigation-link" href="#">Новости</a>
+                        </li>
+                        <li class="navigation-item-site">
+                            <a class="navigation-link" href="#">Спецпредложения</a>
+                        </li>
+                        <li class="navigation-item-site">
+                            <a class="navigation-link" href="#">Доставка</a>
+                        </li>
+                        <li class="navigation-item-site">
+                            <a class="navigation-link" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                    <ul class="navigation-cut">
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">Избранное</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">Корзина</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a class="navigation-link" href="#">Оформить заказ</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </nav>
     </header>
     <main class="main-index">
@@ -322,7 +331,7 @@
             </div>
         </section>
         <section class="contacts-info">
-            <div class="info">
+            <div class="info-company">
                 <h2 class="tittle">Компания «Техномарт»</h2>
                 <p class="discription">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
                     строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.
