@@ -14,6 +14,17 @@
     font-display: swap;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 body {
     font-family: 'PT Sans', sans-serif;
     font-style: normal;
@@ -166,4 +177,205 @@ body {
 .page-footer {
     margin: 0 auto;
     width: 1170px;
+}
+
+.category {
+    display: grid;
+    grid-template-columns: 370px 370px 370px;
+    gap: 30px;
+}
+
+.category-item {
+    position: relative;
+    text-decoration: none;
+    width: 370px;
+    height: 180px;
+    background: #FFBF47;
+}
+
+.category-list {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category-link {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.button-category {
+    position: absolute;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: 180px;
+    height: 40px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    margin-top: 107px;
+    margin-left: 25px;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider-banne {
+    position: relative;
+}
+
+.slider-tittle {
+    position: absolute;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-top: -350px;
+    margin-left: 50px;
+}
+
+.tittle-discription {
+    position: absolute;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    margin-top: -290px;
+    margin-left: 50px;
+}
+
+.slider-button {
+    position: absolute;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    background: #EE3643;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    width: 195px;
+    height: 45px;
+    margin-top: -80px;
+    margin-left: 50px;
+}
+
+.slider-button-left {
+    width: 50px;
+    height: 50px;
+    background: #293449;
+    opacity: 0.6;
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-button-left::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-next::before {
+    background-image: url(../images/arrow-left.svg);
+    margin: 0;
+    padding: 0;
+}
+
+.slider-button-right {
+    width: 50px;
+    height: 50px;
+    background: #293449;
+    opacity: 0.6;
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.slider-button-right::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-prev::before {
+    background-image: url(../images/arrow-right.svg);
+}
+
+.slider-button-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 780px;
+    margin-top: -220px;
+}
+
+.catalog-products {
+    display: flex;
+}
+
+.catalog-right-column {
+   width: 876px;
+}
+
+.catalog-filter {
+    width: 260px;
+    margin-right: 39px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    list-style: none;
+    gap: 33px;
+    margin: 0;
+    padding: 0;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
